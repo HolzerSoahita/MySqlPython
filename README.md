@@ -7,12 +7,12 @@ This is a MySql CRUD Python
 git clone https://github.com/HolzerSoahita/MySqlPython.git  
 cd MySqlPython  
 pip install mysql-connector-python  
-python Connection.py
-python Create_Database.py
-python Create_table.py
-python Populating_Database
-python Selecting_And_Getting_Data.py
-python Where.py
+python Connection.py  
+python Create_Database.py  
+python Create_table.py  
+python Populating_Database  
+python Selecting_And_Getting_Data.py  
+python Where.py  
 ptyhon Update.py
 
 # Author
