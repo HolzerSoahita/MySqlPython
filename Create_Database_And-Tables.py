@@ -13,6 +13,8 @@ mycursor.execute("CREATE DATABASE testdb")
 
 mycursor.execute("SHOW DATABASES")
 
+mycursor.execute("USE testdb")
+
 for db in mycursor:
     print(db)
 

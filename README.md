@@ -1,6 +1,12 @@
 # MySqlPython
 This is a MySql CRUD Python
 
+# Install
+git clone https://github.com/HolzerSoahita/MySqlPython.git    
+cd MySqlPython   
+pip install mysql-connector-python   
+python file.py   
+
 # Author 
 Holzer SOAHITA
 
