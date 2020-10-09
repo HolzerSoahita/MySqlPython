@@ -15,5 +15,5 @@ mycursor.execute("SHOW DATABASES")
 
 print('Database testdb created!\n')
 
-for db in mycursor:
-    print(db)
+# for db in mycursor:
+# print(db)
