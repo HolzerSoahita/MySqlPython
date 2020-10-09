@@ -7,9 +7,6 @@ mydb = mysql.connector.connect(
     passwd=""
 )
 
-print(mydb)
+# print(mydb)
 
-
-
-
-
+print('Connection Ok!')

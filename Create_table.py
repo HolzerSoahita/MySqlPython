@@ -9,16 +9,11 @@ mydb = mysql.connector.connect(
 
 mycursor = mydb.cursor()
 
-mycursor.execute("CREATE DATABASE testdb")
-
-mycursor.execute("SHOW DATABASES")
-
 mycursor.execute("USE testdb")
 
-for db in mycursor:
-    print(db)
-
 mycursor.execute("CREATE TABLE students (name VARCHAR(255),age INTEGER(10))")
+
+print('Table students created!')
 
 mycursor.execute("SHOW TABLES")
 
